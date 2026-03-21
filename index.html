@@ -1,62 +1,195 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Gihan Yasindu Portfolio</title>
+<meta charset="UTF-8">
+<title>Gihan Yasindu | Mobile Developer</title>
+
 <style>
-body {font-family: Arial; margin: 40px; background:#f5f5f5;}
-h1 {color:#333;}
-.section {margin-bottom:40px;}
+
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#f4f6f8;
+color:#333;
+}
+
+header{
+background:#1f2937;
+color:white;
+padding:60px;
+text-align:center;
+}
+
+header h1{
+margin:0;
+font-size:40px;
+}
+
+header p{
+font-size:18px;
+}
+
+.container{
+width:90%;
+max-width:1100px;
+margin:auto;
+padding:40px 0;
+}
+
+.section{
+margin-bottom:60px;
+}
+
+h2{
+border-bottom:3px solid #4f46e5;
+display:inline-block;
+padding-bottom:5px;
+}
+
+.skills{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+}
+
+.skill{
+background:#e5e7eb;
+padding:10px 15px;
+border-radius:5px;
+}
+
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:20px;
+}
+
+.project{
+background:white;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+
+.project img{
+width:100%;
+height:200px;
+object-fit:cover;
+}
+
+.project-content{
+padding:20px;
+}
+
+footer{
+background:#111827;
+color:white;
+text-align:center;
+padding:20px;
+}
+
 </style>
+
 </head>
 
 <body>
 
+<header>
 <h1>Gihan Yasindu</h1>
 <p>Senior Mobile Application Developer | Android | Kotlin | Fintech Apps</p>
+</header>
+
+<div class="container">
 
 <div class="section">
 <h2>About Me</h2>
 <p>
-Mobile developer with 5+ years of experience building Android and fintech applications.
-Worked on banking apps including Frimi, NEOS, and Moneta.
+Mobile application developer with over 5 years of experience in Android and
+cross-platform development. Experienced in building secure fintech and banking
+applications including Frimi, NEOS, and Moneta. Skilled in Kotlin, Java, and
+React Native with strong expertise in REST API integration and mobile security.
 </p>
 </div>
 
 <div class="section">
 <h2>Skills</h2>
-<ul>
-<li>Kotlin</li>
-<li>Java</li>
-<li>Android Development</li>
-<li>React Native</li>
-<li>REST APIs</li>
-<li>Mobile App Security</li>
-</ul>
+
+<div class="skills">
+
+<div class="skill">Kotlin</div>
+<div class="skill">Java</div>
+<div class="skill">Android Development</div>
+<div class="skill">React Native</div>
+<div class="skill">REST APIs</div>
+<div class="skill">Mobile Security</div>
+<div class="skill">Firebase</div>
+<div class="skill">Git</div>
+<div class="skill">MVVM Architecture</div>
+
+</div>
+
 </div>
 
 <div class="section">
 <h2>Projects</h2>
 
+<div class="projects">
+
+<div class="project">
+<img src="images/frimi.jpg">
+<div class="project-content">
 <h3>Frimi Banking App</h3>
-<p>Developed Android banking features and API integrations.</p>
+<p>Mobile banking application for Nations Trust Bank with secure financial
+transactions and API integrations.</p>
+</div>
+</div>
 
-<h3>NDB NEOS App</h3>
-<p>Mobile banking app built using Kotlin.</p>
+<div class="project">
+<img src="images/neos.jpg">
+<div class="project-content">
+<h3>NDB NEOS Banking App</h3>
+<p>Digital banking platform built using Kotlin with authentication and payment
+features.</p>
+</div>
+</div>
 
+<div class="project">
+<img src="images/moneta.jpg">
+<div class="project-content">
 <h3>Moneta Lending App</h3>
-<p>Digital lending platform with payment integrations.</p>
+<p>Digital lending platform allowing users to request and manage loans
+securely.</p>
+</div>
+</div>
 
+<div class="project">
+<img src="images/hopes.jpg">
+<div class="project-content">
 <h3>HOPES Mental Health App</h3>
-<p>Healthcare mobile application built using Kotlin and Swift.</p>
+<p>Healthcare mobile application developed with Kotlin and Swift for mental
+health support.</p>
+</div>
+</div>
+
+</div>
 
 </div>
 
 <div class="section">
 <h2>Contact</h2>
+
 <p>Email: gihanyasindu@gmail.com</p>
+<p>Phone: 0430619291</p>
 <p>LinkedIn: linkedin.com/in/gihan-yasindu-081935b5</p>
 <p>GitHub: github.com/yasindu0303</p>
+
 </div>
+
+</div>
+
+<footer>
+<p>© 2026 Gihan Yasindu</p>
+</footer>
 
 </body>
 </html>
